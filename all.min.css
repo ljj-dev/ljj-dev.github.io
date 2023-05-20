@@ -633,10 +633,7 @@ body,button {
 	padding:0
 }
 .page-6 img {
-	position:absolute;
-	bottom:0;
-	left:0;
-	max-width:70%
+	height:80%
 }
 .page-6 h3 {
 	position:absolute;
@@ -663,41 +660,23 @@ body,button {
 .page-8 {
 	background:#66cbff
 }
-.page-8 h3 {
-	color:#eef;
-	position:absolute;
-	top:1em;
-	left:50%;
-	margin-left:-40%;
-	padding:0;
-	margin-top:0;
-	width:10em;
-	text-align:left
-}
-.page-8 h3 span {
-	display:inline-block;
-	width:1em;
-	vertical-align:top
-}
 .page-9 {
 	background-color:#c9f4fb
 }
 .page-9 img {
-	margin-top:3em
+	max-height:100%;
+	margin:0 auto
 }
 .page-10 {
-	background:url(img/iali22_bg.jpg)
+	background-color:#c9f4fb
 }
 .page-12 {
 	background-color:#aff1ff;
 	padding:0
 }
 .page-12 img {
-	position:absolute;
-	bottom:1em;
-	left:1em;
-	z-index:2;
-	height:40%
+	max-height:100%;
+	margin:0 auto
 }
 .page-12 h3 {
 	margin-left:1em;
@@ -706,9 +685,6 @@ body,button {
 .page-13 {
 	background-color:#feeff4;
 	padding:0
-}
-.page-13 img {
-	height:80%
 }
 .page-13 he {
 	height:20%
@@ -725,6 +701,9 @@ body,button {
 .page-17 {
 	background-color:#e5f0f2
 }
+.page-17 img {
+	height:80%
+}
 .page-19 {
 	background-image:url(img/iali75_bg.jpg)
 }
@@ -739,11 +718,6 @@ body,button {
 	background-color:#fcd0ca;
 	padding:0
 }
-.page-20 img {
-	position:absolute;
-	bottom:0;
-	left:4em
-}
 .page-21 {
 	background:#fbf2a3 url(img/iali59_bg.jpg)
 }
@@ -751,6 +725,9 @@ body,button {
 	background-color:#f5d484
 }
 .page-23 {
+	background-color:#fff
+}
+.page-24 {
 	background-color:#fff
 }
 .page-25 {
@@ -772,11 +749,6 @@ body,button {
 .page-28 {
 	background:#b7e7f3 url(img/iali40_bg.jpg) bottom repeat-x;
 	padding:0
-}
-.page-28 img {
-	position:absolute;
-	bottom:0;
-	left:3em
 }
 .page-28 h3 {
 	position:absolute;
@@ -801,11 +773,6 @@ body,button {
 	padding:0;
 	padding:0
 }
-.page-30 img {
-	position:absolute;
-	bottom:0;
-	left:0
-}
 .page-31 {
 	background-color:#fbf5e9
 }
@@ -820,21 +787,8 @@ body,button {
 	font-size:1.8em;
 	color:#a58545
 }
-.page-34 {
-	background:#94c2e3 url(img/iali57.jpg) left bottom no-repeat
-}
 .page-34 h3 {
 	color:#fff
-}
-.page-35 {
-	background:#fff url(img/iali8_bg.png) left bottom repeat-x;
-	padding:0
-}
-.page-35 img {
-	position:absolute;
-	bottom:0;
-	left:0;
-	z-index:1
 }
 .page-35 h3 {
 	position:absolute;
@@ -853,25 +807,19 @@ body,button {
 	background-color:#fff
 }
 .page-38 {
-	background-color:#fff8f2
+	background-color:#fff
 }
 .page-39 {
 	background:#e8ccc1 url(img/iali2_bg.jpg) repeat
+}
+.page-39 img {
+	height:80%
 }
 .page-40 {
 	background-color:#cde7f4
 }
 .page-40 img {
-	position:absolute;
-	bottom:1em;
-	left:1em;
-	z-index:1
-}
-.page-40 h3 {
-	position:absolute;
-	top:1em;
-	right:1em;
-	z-index:2
+	height:80%
 }
 .page-41 {
 	background-color:#5aaadc;
@@ -885,8 +833,7 @@ body,button {
 	bottom:1em
 }
 .page-41 .img2 {
-	right:1em;
-	top:1em
+	height:80%
 }
 .page-41 h3 {
 	padding:0;
@@ -899,9 +846,7 @@ body,button {
 	background-color:#c1c567
 }
 .page-42 img {
-	position:absolute;
-	bottom:2em;
-	left:1em
+	max-height:80%
 }
 .page-42 h3 {
 	font-size:2em
@@ -918,26 +863,20 @@ body,button {
 .page-44 {
 	background-color:#f3e7ab
 }
+.page-44 img {
+	max-height:80%
+}
 .page-45 {
 	background-color:#b1dceb
+}
+.page-45 img {
+	height:80%
 }
 .page-46 {
 	background:#66cbff
 }
-.page-46 h3 {
-	position:absolute;
-	top:1em;
-	left:50%;
-	margin-left:-40%;
-	padding:0;
-	margin-top:0;
-	width:10em;
-	text-align:left
-}
-.page-46 h3 span {
-	display:inline-block;
-	width:1em;
-	vertical-align:top
+.page-46 img {
+	height:80%
 }
 .page-47 {
 	background-color:#fdcbca
@@ -960,12 +899,15 @@ body,button {
 .page-48 {
 	background-color:#e3e2e7
 }
+.page-48 img {
+	max-height:80%
+}
 .page-49 {
 	background-color:#fce6b6;
 	text-align:left
 }
 .page-49 img {
-	margin:0
+	max-height:80%
 }
 .page-50 {
 	background-color:#aae1f6;
@@ -1000,6 +942,9 @@ body,button {
 	background-color:#fff2fb;
 	padding:0
 }
+.page-52 img {
+	height:80%
+}
 .page-52 h3 {
 	margin:0;
 	padding-top:.8em;
@@ -1008,6 +953,9 @@ body,button {
 }
 .page-53 {
 	background-color:#febebe
+}
+.page-53 img {
+	height:80%
 }
 .page-54 {
 	background:#d3d2d0 url(img/319280_bg.jpg) repeat
